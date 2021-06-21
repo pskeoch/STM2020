@@ -1,0 +1,1211 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>STM2020 - Energy Institute</title>
+
+<style>
+body {
+	margin:0px;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+}
+#horizon {
+	margin-top:0px;
+	margin-left:50%;
+}
+.horizon {
+	width:100%;
+	margin-top:35px;
+	margin-left:0px;
+}
+#container {
+	width:1000px;
+	margin-left:-500px;
+}
+.container2 {
+	margin-left:50%;
+}
+#header {
+	color:#FFFFFF;
+	margin:0px;
+	padding:0px;
+}
+#footer {
+	height:80px;
+	clear:both;
+	color:#003468;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+}
+#titlebar {
+	background-color:#003468;
+	background-repeat:no-repeat;
+	padding: 0px 18px 0px 18px;
+	height:36px;
+	margin:0px;
+}
+#tophomelnk {
+	text-decoration:none;
+	color:#ffffff;
+	float:left;
+}
+#toplnkbar {
+	clear:both;
+	background-image: url(images/topnavbar.png);
+	background-repeat:no-repeat;
+	line-height:43px;
+	padding: 0px 20px 0px 20px;
+	margin-bottom:18px;
+	height:44px;
+	font-size:18px;
+}
+#midsec {
+	color:#ffffff;
+}
+#maincont {
+	width:484px;
+	float:left;
+	padding: 0px 10px 0px 26px;
+	margin: 0px 0px 0px 0px;
+}
+#sidepan {
+	color:#FFFFFF;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	width:240px;
+}
+#conttitlebar {
+	background-repeat:no-repeat;
+	padding-left:0px;
+	height:36px;
+	line-height:36px;
+	color:#003468;
+}
+#appendtitlebar {
+	background-repeat:no-repeat;
+	padding-left:0px;
+	height:36px;
+	line-height:36px;
+	color:#003468;
+	font-size: 24px;
+	font-weight:bold;
+}
+.maintxt {
+	color: #003468;
+	font-size: 13px;
+	line-height:18px;
+	padding: 0px 12px 0px 0px
+}
+#leftpan {
+	color:#FFFFFF;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	width:240px;
+}
+
+#leftbox-title {
+	background-image:url(images/quicklinks-head.png);
+	background-repeat:no-repeat;
+	width:215px;
+	height:46px;
+	padding-left:18px;
+	padding-top:14px;
+	margin:0px;
+}
+#leftbox-footer {
+	height:30px;
+	width:233px;
+	background-color:#DDDDDD;
+}
+#quicklnks {
+	margin:0px;
+	padding: 0px 8px 0px 8px;
+	width:211px;
+	height:450px;
+	border-color:#CCCCCC;
+	border-bottom:3px solid #DDDDDD;
+	border-left:3px solid #DDDDDD; 
+	border-right:3px solid #DDDDDD;
+	border-top:0px none #DDDDDD;
+	color:#003468;
+	font-size:15px;
+	font-weight:normal;
+}
+.quicklnk {
+	padding:9px 0px 10px 0px;
+	margin:0px 0px 0px 0px;
+	border-bottom: 1px solid #dddddd;
+	color:#003468;
+}
+
+#sform-title {
+	background-image:url(images/search-head.png);
+	background-repeat:no-repeat;
+	width:215px;
+	height:50px;
+	padding-left:18px;
+	padding-top:14px;
+	margin:0px;
+}
+#searchform {
+	margin:0px 0px 0px 0px;
+	width:227px;
+	height:240px;
+	border-color:#CCCCCC;
+	border-bottom:3px solid #DDDDDD;
+	border-left:3px solid #DDDDDD; 
+	border-right:3px solid #DDDDDD;
+	border-top:0px none #DDDDDD;
+	color:#003468;
+	font-size:13px;
+}
+#searchformkey {
+	margin:0px 0px 30px 0px;
+	width:227px;
+	height:104px;
+	border-color:#CCCCCC;
+	border-bottom:3px solid #DDDDDD;
+	border-left:3px solid #DDDDDD; 
+	border-right:3px solid #DDDDDD;
+	border-top:0px none #DDDDDD;
+	color:#003468;
+	font-size:13px;
+}
+#sform {
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+}
+#sformnum {
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+}
+.form-tbox {
+	margin: 10px 0px 19px 12px;
+	padding: 0px 0px 0px 0px;
+}
+input {
+	margin: 3px 0px 3px 0px;
+}
+#search-footer {
+	height:40px;
+	width:216px;
+	background-color:#DDDDDD;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 12px 0px 0px;
+}
+
+#welcomearea {
+	display:block;
+	padding: 0px 8px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#appendixarea {
+	display:none;
+	padding: 0px 8px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#searcharea {
+	display:none;
+	padding: 0px 8px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#paperarea {
+	display:none;
+	padding: 0px 26px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#eiarea {
+	display:none;
+	padding: 0px 8px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#legalarea {
+	display:none;
+	padding: 0px 8px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.submitbut {
+	background-image:url(images/searchbut.png);
+	background-repeat:no-repeat;
+	width:92px;
+	height:36px;
+	color:#FFFFFF;
+	border: 0px #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float:right;
+}
+
+#searchres-title {
+	color:#003468;
+	font-size:20px;
+	font-weight:bold;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#sresults {
+	color:#003468;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 28px 0px;
+	text-align:right;
+}
+.sresttl {
+	color:#003468;
+	font-size:15px;
+	font-weight:bold;
+	margin:28px 0px 3px 0px;
+	clear:both;
+}
+.sresttl-link {
+	color:#003468;
+}
+.sresdeets {
+	color:#363636;
+	font-size:13px;
+	font-weight: normal;
+	margin:0px 20px 3px 0px;
+	float:left;
+}
+.srespapdate {
+	color:#363636;
+	font-size:13px;
+	font-weight: normal;
+	margin:0px 20px 3px 0px;
+	float: left;
+}
+.srespapredate {
+	color:#363636;
+	font-size:13px;
+	font-weight: normal;
+	margin:0px 0px 3px 0px;
+	float: left;	
+}
+a {
+	color:#363636;
+	text-decoration:none;
+}
+	
+.sresbutline {
+	clear: both;
+}
+
+.sresdocbut {
+	background-image:url(images/docbut.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:30px;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	line-height:28px;
+	text-align: center;
+	margin: 8px 12px 30px 0px;
+	padding: 0px;
+	float:left;
+}
+
+.sresnav {
+	color:#003468;
+	font-size:15px;
+	font-weight:bold;
+	margin:14px 0px 0px 12px;
+	padding:0px;
+	float:left;
+}
+.sresnavcur {
+	color:#808A95;
+	font-size:15px;
+	font-weight:bold;
+	margin:14px 0px 0px 12px;
+	padding:0px;
+	float:left;
+}
+
+.papredate {
+	color:#003468;
+	font-size:13px;
+	font-weight:normal;
+	margin:0px 0px 14px 0px;
+}
+
+.papprevttl {
+	color:#003468;
+	font-size:20px;
+	font-weight:bold;
+	margin:20px 0px 20px 0px;
+}
+.papprevauths {
+	color:#003468;
+	font-size:15px;
+	font-weight:normal;
+	margin:0px 0px 20px 0px;
+}
+.papprevabstract {
+	color:#000000;
+	font-size:13px;
+	font-weight:normal;
+	margin:0px 0px 0px 0px;
+}
+
+a:hover {
+	cursor:pointer; 
+}
+
+.eitxtlnk {
+	text-decoration:underline;
+	color:#003468;
+}
+
+.backlink {
+	font-size:12px;
+	color:#003468;
+}
+
+	#toplogos {
+		width:1000px;
+		height:84px;
+	}
+	#iptestmethlogo {
+		float:left;
+	}
+	#engyinstlogo {
+		float:right;
+	}
+	
+	sup { vertical-align: top; font-size: 0.6em; }
+</style>
+
+<script language="javascript" src="dbase.js"></script>
+
+<script language="javascript">
+
+function clearsearch() {
+
+		searchareanode = document.getElementById('searchresbox');
+		searchareanode.innerHTML = '';
+
+}
+function clearappendices() {
+
+		searchareanode = document.getElementById('appendixbox');
+		searchareanode.innerHTML = '';
+
+}
+
+function changesec(newarea) {
+	//alert(newarea);
+	for(sec=0;sec<seccount;sec++) {
+		if (seclist[sec] == newarea) {
+			document.getElementById(seclist[sec]).style.display = 'block';
+		} else {
+			document.getElementById(seclist[sec]).style.display = 'none';
+		}
+	}
+	
+	//document.getElementById('toppage').scrollIntoView(true);
+}
+
+function searchrunnum(pagno) { //triggered by search button
+
+	var st = document.getElementsByName("searchtnum")[0].value;
+	//var pagno = document.getElementsByName("pagno")[0].value;
+	var resperpag = document.getElementsByName("resperpag")[0].value;
+	var typeradiogrp = document.getElementsByName("searchtype")
+	for(var i = 0; i < typeradiogrp.length; i++) {
+		if(typeradiogrp[i].checked == true) {
+			var type = typeradiogrp[i].value;
+		}
+	}
+	var typeset = document.getElementsByName("typeset")[0].value;
+	
+	//alert (typeset);
+	//alert (type);
+
+	clearsearch();
+	clearappendices();
+	//pagno = parseInt(pagno);
+	
+	//Go to search section
+	changesec('searcharea');
+
+	if (st.length>=1) {
+
+		cursearch = 0;
+		matchlist = new Array();
+		for (i=0;i<iparr.length;i++) {
+			var comptxt = "";
+			if (typeset != 999) {
+			
+				if (typeset == 0) { //IP
+					comptxt = iparr[i].toLowerCase();
+					var stype = "IP number";
+				}
+				if (typeset == 1) { //BSI
+					comptxt = bsiarr[i].toLowerCase();
+					var stype = "BSI number";
+				}
+				if (typeset == 2) { //ISO
+					comptxt = isoarr[i].toLowerCase();
+					var stype = "ISO number";
+				}
+				if (typeset == 3) { //EN
+					comptxt = cenarr[i].toLowerCase();
+					var stype = "EN number";
+				}
+				if (typeset == 4) { //ASTM
+					comptxt = astmarr[i].toLowerCase();
+					var stype = "ASTM number";
+				}				
+			
+			} else {
+				if (type == 'IP') { //IP
+					comptxt = iparr[i].toLowerCase();
+					var stype = "IP number";
+					typeset = 0;
+				}
+				if (type == 'BSI') { //BSI
+					comptxt = bsiarr[i].toLowerCase();
+					var stype = "BSI number";
+					typeset = 1;
+				}
+				if (type == 'ISO') { //ISO
+					comptxt = isoarr[i].toLowerCase();
+					var stype = "ISO number";
+					typeset = 2;
+				}
+				if (type == 'EN') { //EN
+					comptxt = cenarr[i].toLowerCase();
+					var stype = "EN number";
+					typeset = 3;
+				}
+				if (type == 'ASTM') { //ASTM
+					comptxt = astmarr[i].toLowerCase();
+					var stype = "ASTM number";
+					typeset = 4;
+				}
+			}
+			
+			finder = comptxt.indexOf(st.toLowerCase());
+			if (finder!=-1) { //if keyword matches any text in selected database then....
+				cursearch = cursearch + 1;
+				//alert(cursearch);
+				//alert(document.getElementById('catopt' + i).parentNode.id);
+				matchlist.push(i);
+			}									
+				
+		}		
+		
+		//display paper matches//////////////////////////////////////////////
+		///////////////////////////////////////////////////////////////////////
+		//alert(matchlist);
+		sresareport = document.createElement('p');
+		sresareport.setAttribute('id','sresults');
+		if (matchlist.length==1) {
+			sresareport.innerHTML = "Displaying " + matchlist.length + " search result";
+		} else {
+			sresareport.innerHTML = "Displaying " + matchlist.length + " search results";
+		}
+		document.getElementById('searchresbox').appendChild(sresareport);
+		if (matchlist.length>0) {
+			
+			resoffset = (pagno-1) * resperpag;
+			for(p=0;p<resperpag;p++) {
+				if (resoffset+p<matchlist.length) {
+					sresttl = document.createElement('p');
+					sresttl.setAttribute('class','sresttl');
+					sresttl.className = 'sresttl';
+					sresttl.setAttribute('id','smatch' + p);
+					sresttllnk = document.createElement('a');
+					sresttllnk.setAttribute('class','sresttl-link');
+					sresttllnk.className = 'sresttl-link';
+					sresttllnk.setAttribute('href','#');
+					sresttllnk.setAttribute('onclick','prevpap(' + matchlist[resoffset+p] + ',' + 2 + ');');
+					sresttllnk.onclick = (function(matchref) { return function() { prevpap(matchref,2)};})(matchlist[resoffset+p]);
+					sresttllnk.innerHTML = 'IP ' + iparr[matchlist[resoffset+p]] + ' : ' + titlearr[matchlist[resoffset+p]];
+					document.getElementById('searchresbox').appendChild(sresttl);
+					document.getElementById('smatch' + p).appendChild(sresttllnk);
+					//sresip = document.createElement('p');
+					//sresip.setAttribute('class','sresdeets');
+					//sresip.className = 'sresdeets';
+					//sresip.innerHTML = 'IP ' + iparr[matchlist[resoffset+p]];
+					//document.getElementById('searchresbox').appendChild(sresip);		
+					
+					if (bsiarr[matchlist[resoffset+p]] != '') {
+						sresbsi = document.createElement('p');
+						sresbsi.setAttribute('class','sresdeets');
+						sresbsi.className = 'sresdeets';
+						sresbsi.innerHTML = 'BS 2000 : ' + bsiarr[matchlist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresbsi);
+					}
+					if (isoarr[matchlist[resoffset+p]] != '') {
+						sresiso = document.createElement('p');
+						sresiso.setAttribute('class','sresdeets');
+						sresiso.className = 'sresdeets';
+						sresiso.innerHTML = 'ISO ' + isoarr[matchlist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresiso);
+					}
+					if (cenarr[matchlist[resoffset+p]] != '') {
+						sresen = document.createElement('p');
+						sresen.setAttribute('class','sresdeets');
+						sresen.className = 'sresdeets';
+						sresen.innerHTML = 'EN ' + cenarr[matchlist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresen);
+					}
+					if (astmarr[matchlist[resoffset+p]] != '') {
+						sresastm = document.createElement('p');
+						sresastm.setAttribute('class','sresdeets');
+						sresastm.className = 'sresdeets';
+						sresastm.innerHTML = 'ASTM ' + astmarr[matchlist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresastm);
+					}
+					sresdate = document.createElement('p');
+					sresdate.setAttribute('class','srespapdate');
+					sresdate.className = 'srespapdate';
+					sresdate.innerHTML = 'Date: ' + datearr[matchlist[resoffset+p]];
+					document.getElementById('searchresbox').appendChild(sresdate);
+					if (redatearr[matchlist[resoffset+p]]!="") {
+						sresredate = document.createElement('p');
+						sresredate.setAttribute('class','srespapredate');
+						sresredate.className = 'srespapredate';
+						sresredate.innerHTML = 'Reapproved Date: ' + redatearr[matchlist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresredate);
+					} else {
+						sresredate = document.createElement('p');
+						sresredate.setAttribute('class','srespapredate');
+						sresredate.className = 'srespapredate';
+						sresredate.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+						document.getElementById('searchresbox').appendChild(sresredate);				
+					}
+					
+					sresoptbuts = document.createElement('p')
+					sresoptbuts.setAttribute('class','sresbutline')
+					sresoptbuts.className = 'sresbutline';
+					
+					sresopendoc = document.createElement('p');
+					sresopendoc.setAttribute('class','sresdocbut');
+					sresopendoc.className = 'sresdocbut';
+					sresopendoc.innerHTML = 'Open Document';
+					sresopendoclnk = document.createElement('a');
+					sresopendoclnk.setAttribute('href','pdfs/' + pdfarr[matchlist[resoffset+p]]+'.pdf');
+					sresopendoclnk.setAttribute('target','_blank');
+					sresopendoclnk.appendChild(sresopendoc);
+					
+					sresoptbuts.appendChild(sresopendoclnk);
+					
+					//document.getElementById('searchresbox').appendChild(sresopendoclnk);
+					sresvscope = document.createElement('p');
+					sresvscope.setAttribute('class','sresdocbut');
+					sresvscope.className = 'sresdocbut';
+					sresvscope.innerHTML = 'View Scope';
+					sresvscopelnk = document.createElement('a');
+					sresvscopelnk.setAttribute('href','#');
+					sresvscopelnk.setAttribute('onclick','prevpap(' + matchlist[resoffset+p] + ');');
+					sresvscopelnk.onclick = (function(matchref) { return function() { prevpap(matchref,2)};})(matchlist[resoffset+p]);
+					sresvscopelnk.appendChild(sresvscope);
+					
+					sresoptbuts.appendChild(sresvscopelnk);
+					//document.getElementById('searchresbox').appendChild(sresvscopelnk);
+					
+					document.getElementById('searchresbox').appendChild(sresoptbuts);
+				}
+			}
+			
+			//add in divider between search results and page nav
+			sdivide = document.createElement('p');
+			sdivide.setAttribute('class','sresttl');
+			sdivide.className = 'sresttl';
+			document.getElementById('searchresbox').appendChild(sdivide);			
+			
+			
+			pagtot = Math.ceil(matchlist.length / resperpag);
+			if (pagtot>1 && pagno>1) { 
+				prevrespag = document.createElement('p');
+				prevrespag.setAttribute('class','sresnav');
+				prevrespag.setAttribute('style','margin-right:80px');
+				prevrespag.className = 'sresnav';
+				
+				prevrespaglnk = document.createElement('a');
+				prevrespaglnk.innerHTML = 'Previous';
+				prevrespaglnk.setAttribute('href','#');
+				gotopag = pagno-1;
+				prevrespaglnk.setAttribute('onclick','searchrunnum(' + gotopag + ');');
+				prevrespaglnk.onclick = (function(targpag) { return function() { searchrunnum(targpag)};})(gotopag);
+				prevrespaglnk.setAttribute('class','sresnav');
+				prevrespaglnk.className = 'sresnav';
+				prevrespag.appendChild(prevrespaglnk);
+				document.getElementById('searchresbox').appendChild(prevrespag);
+			}
+			if (pagtot>1) {
+				for (p=1;p<=pagtot;p++) {
+					respag = document.createElement('p');
+					if (pagno==p) {
+						respag.setAttribute('class','sresnavcur');
+						respag.className = 'sresnavcur';
+						respaglnk = document.createElement('a');
+						respaglnk.setAttribute('class','sresnavcur');
+						respaglnk.className = 'sresnavcur';
+						respaglnk.innerHTML = p;
+						respaglnk.setAttribute('href','#');
+						respaglnk.setAttribute('onclick','searchrunnum(' + p + ');');
+						respaglnk.onclick = (function(targpag) { return function() { searchrunnum(targpag)};})(p);
+						respag.appendChild(respaglnk);
+						document.getElementById('searchresbox').appendChild(respag);
+					} else {
+						respag.setAttribute('class','sresnav');
+						respag.className = 'sresnav';
+						respaglnk = document.createElement('a');
+						respaglnk.setAttribute('class','sresnav');
+						respaglnk.className = 'sresnav';
+						respaglnk.innerHTML = p;
+						respaglnk.setAttribute('href','#');
+						respaglnk.setAttribute('onclick','searchrunnum(' + p + ');');
+						respaglnk.onclick = (function(targpag) { return function() { searchrunnum(targpag)};})(p);
+						respag.appendChild(respaglnk);
+						document.getElementById('searchresbox').appendChild(respag);
+					}
+				
+				}
+			}
+			if (pagtot>1 && pagno<pagtot) { 
+				nextrespag = document.createElement('p');
+				nextrespag.setAttribute('class','sresnav');
+				nextrespag.setAttribute('style','float:right');
+				nextrespag.className = 'sresnav';
+				
+				nextrespaglnk = document.createElement('a');
+				nextrespaglnk.innerHTML = 'Next';
+				nextrespaglnk.setAttribute('href','#');
+				gotopag = pagno+1;
+				nextrespaglnk.setAttribute('onclick','searchrunnum(' + gotopag + ');');
+				nextrespaglnk.onclick = (function(targpag) { return function() { searchrunnum(targpag)};})(gotopag);
+				nextrespaglnk.setAttribute('class','sresnav');
+				nextrespaglnk.className = 'sresnav';
+				nextrespag.appendChild(nextrespaglnk);
+				document.getElementById('searchresbox').appendChild(nextrespag);
+			}
+		}
+	}
+	
+	//document.getElementById('toppage').scrollIntoView(true);
+	
+}//end search function
+
+
+function searchrun(pagno) { //triggered by search button keyword
+	
+	var st = document.getElementsByName("searchtkey")[0].value;
+	//var pagno = document.getElementsByName("pagnokey")[0].value;
+	var resperpag = document.getElementsByName("resperpagkey")[0].value;
+
+	clearsearch();
+	clearappendices();
+	
+	//Go to search section
+	changesec('searcharea');
+	//pagno = parseInt(pagno);
+
+	
+	if (st.length>=2) {
+		//check desired focus, make list of matching indices
+		cursearch = 0;
+		matchlist = new Array();
+		matchttllist = new Array();
+		for (i=0;i<393;i++) {
+			
+			var comptxt = "";
+			comptxt = scopearr[i].toLowerCase() + ' ' + datearr[i].toLowerCase() + ' ' + iparr[i].toLowerCase();
+			comptitle = titlearr[i].toLowerCase();
+			
+			//First check for title match and add to titlematch list
+			finder = comptitle.indexOf(st.toLowerCase());
+			if (finder!=-1) { //if keyword matches any text in title then....
+				cursearch = cursearch + 1;
+				//searchscore = "0"; //lower search score = higher ranking
+				matchttllist.push(i);
+			} else {
+				//only run search of other database elements if nothing found in title
+				finder = comptxt.indexOf(st.toLowerCase());
+				if (finder!=-1) { //if keyword matches any text in selected database then....
+					//alert(comptxt);
+					cursearch = cursearch + 1;
+					//alert(cursearch);
+					//alert(document.getElementById('catopt' + i).parentNode.id);
+					matchlist.push(i);
+					//alert(matchlist.length);
+				}
+				//alert(matchlist.length);		
+				
+			}
+				
+		}		
+		matchttllist.push.apply(matchttllist,matchlist);
+		//display paper matches//////////////////////////////////////////////
+		///////////////////////////////////////////////////////////////////////
+		//alert(matchlist[0]);
+		//First display title matches
+		
+		
+		sresareport = document.createElement('p');
+		sresareport.setAttribute('id','sresults');
+		if (matchttllist.length==1) {
+			sresareport.innerHTML = "Displaying " + matchttllist.length + " search result";
+		} else {
+			sresareport.innerHTML = "Displaying " + matchttllist.length + " search results";
+		}
+		
+		
+		document.getElementById('searchresbox').appendChild(sresareport);
+		if (matchttllist.length>0) {
+			resoffset = (pagno-1) * resperpag;
+			for(p=0;p<resperpag;p++) {
+				if (resoffset+p<matchttllist.length) {
+					sresttl = document.createElement('p');
+					sresttl.setAttribute('class','sresttl');
+					sresttl.className = 'sresttl';
+					sresttl.setAttribute('id','smatch' + p);
+					sresttllnk = document.createElement('a');
+					sresttllnk.setAttribute('class','sresttl-link');
+					sresttllnk.className = 'sresttl-link';
+					sresttllnk.setAttribute('href','#');
+					sresttllnk.setAttribute('onclick','prevpap(' + matchttllist[resoffset+p] + ',' + 2 + ');');
+					sresttllnk.onclick = (function(matchref) { return function() { prevpap(matchref,2)};})(matchttllist[resoffset+p]);
+					sresttllnk.innerHTML = 'IP ' + iparr[matchttllist[resoffset+p]] + ' : ' + titlearr[matchttllist[resoffset+p]];
+					document.getElementById('searchresbox').appendChild(sresttl);
+					document.getElementById('smatch' + p).appendChild(sresttllnk);				
+					//sresip = document.createElement('p');
+					//sresip.setAttribute('class','sresdeets');
+					//sresip.className = 'sresdeets';
+					//sresip.innerHTML = 'IP ' + iparr[matchlist[resoffset+p]];
+					//document.getElementById('searchresbox').appendChild(sresip);
+					
+					if (bsiarr[matchttllist[resoffset+p]] != '') {
+						sresbsi = document.createElement('p');
+						sresbsi.setAttribute('class','sresdeets');
+						sresbsi.className = 'sresdeets';
+						sresbsi.innerHTML = 'BS 2000 : ' + bsiarr[matchttllist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresbsi);
+					}
+					if (isoarr[matchttllist[resoffset+p]] != '') {
+						sresiso = document.createElement('p');
+						sresiso.setAttribute('class','sresdeets');
+						sresiso.className = 'sresdeets';
+						sresiso.innerHTML = 'ISO ' + isoarr[matchttllist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresiso);
+					}
+					if (cenarr[matchttllist[resoffset+p]] != '') {
+						sresen = document.createElement('p');
+						sresen.setAttribute('class','sresdeets');
+						sresen.className = 'sresdeets';
+						sresen.innerHTML = 'EN ' + cenarr[matchttllist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresen);
+					}
+					if (astmarr[matchttllist[resoffset+p]] != '') {
+						sresastm = document.createElement('p');
+						sresastm.setAttribute('class','sresdeets');
+						sresastm.className = 'sresdeets';
+						sresastm.innerHTML = 'ASTM ' + astmarr[matchttllist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresastm);
+					}
+					sresdate = document.createElement('p');
+					sresdate.setAttribute('class','srespapdate');
+					sresdate.className = 'srespapdate';
+					sresdate.innerHTML = 'Date: ' + datearr[matchttllist[resoffset+p]];
+					document.getElementById('searchresbox').appendChild(sresdate);
+					if (redatearr[matchttllist[resoffset+p]]!="") {
+						sresredate = document.createElement('p');
+						sresredate.setAttribute('class','srespapredate');
+						sresredate.className = 'srespapredate';
+						sresredate.innerHTML = 'Reapproved Date: ' + redatearr[matchttllist[resoffset+p]];
+						document.getElementById('searchresbox').appendChild(sresredate);
+					} else {
+						sresredate = document.createElement('p');
+						sresredate.setAttribute('class','srespapredate');
+						sresredate.className = 'srespapredate';
+						sresredate.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+						document.getElementById('searchresbox').appendChild(sresredate);				
+					}
+					
+					sresoptbuts = document.createElement('p')
+					sresoptbuts.setAttribute('class','sresbutline')
+					sresoptbuts.className = 'sresbutline';
+					
+					sresopendoc = document.createElement('p');
+					sresopendoc.setAttribute('class','sresdocbut');
+					sresopendoc.className = 'sresdocbut';
+					sresopendoc.innerHTML = 'Open Document';
+					sresopendoclnk = document.createElement('a');
+					sresopendoclnk.setAttribute('href','pdfs/' + pdfarr[matchttllist[resoffset+p]]+'.pdf');
+					sresopendoclnk.setAttribute('target','_blank');
+					sresopendoclnk.appendChild(sresopendoc);
+					
+					sresoptbuts.appendChild(sresopendoclnk);
+					//document.getElementById('searchresbox').appendChild(sresopendoclnk);
+					
+					sresvscope = document.createElement('p');
+					sresvscope.setAttribute('class','sresdocbut');
+					sresvscope.className = 'sresdocbut';
+					sresvscope.innerHTML = 'View Scope';
+					sresvscopelnk = document.createElement('a');
+					sresvscopelnk.setAttribute('href','#');
+					sresvscopelnk.setAttribute('onclick','prevpap(' + matchttllist[resoffset+p] + ');');
+					sresvscopelnk.onclick = (function(matchref) { return function() { prevpap(matchref,2)};})(matchttllist[resoffset+p]);
+					sresvscopelnk.appendChild(sresvscope);
+					
+					sresoptbuts.appendChild(sresvscopelnk);
+					document.getElementById('searchresbox').appendChild(sresoptbuts);
+					//document.getElementById('searchresbox').appendChild(sresvscopelnk);
+				}
+			}			
+			
+			
+			//add in divider between search results and page nav
+			sdivide = document.createElement('p');
+			sdivide.setAttribute('class','sresttl');
+			sdivide.className = 'sresttl';
+			sdivide.innerHTML = '   ';
+			document.getElementById('searchresbox').appendChild(sdivide);
+			
+			pagtot = Math.ceil(matchttllist.length / resperpag);
+			if (pagtot>1 && pagno>1) { 
+				prevrespag = document.createElement('p');
+				prevrespag.setAttribute('class','sresnav');
+				prevrespag.setAttribute('style','margin-right:80px');
+				prevrespag.className = 'sresnav';
+				
+				prevrespaglnk = document.createElement('a');
+				prevrespaglnk.innerHTML = 'Previous';
+				prevrespaglnk.setAttribute('href','#');
+				gotopag = pagno-1;
+				prevrespaglnk.setAttribute('onclick','searchrun(' + gotopag + ');');
+				prevrespaglnk.onclick = (function(targpag) { return function() { searchrun(targpag)};})(gotopag);
+				prevrespaglnk.setAttribute('class','sresnav');
+				prevrespaglnk.className = 'sresnav';
+				prevrespag.appendChild(prevrespaglnk);
+				document.getElementById('searchresbox').appendChild(prevrespag);
+			}
+			if (pagtot>1) {
+				for (p=1;p<=pagtot;p++) {
+					respag = document.createElement('p');
+					if (pagno==p) {
+						respag.setAttribute('class','sresnavcur');
+						respag.className = 'sresnavcur';
+						respaglnk = document.createElement('a');
+						respaglnk.setAttribute('class','sresnavcur');
+						respaglnk.className = 'sresnavcur';
+						respaglnk.innerHTML = p;
+						respaglnk.setAttribute('href','#');
+						respaglnk.setAttribute('onclick','searchrun(' + p + ');');
+						respaglnk.onclick = (function(targpag) { return function() { searchrun(targpag)};})(p);
+						respag.appendChild(respaglnk);
+						document.getElementById('searchresbox').appendChild(respag);
+					} else {
+						respag.setAttribute('class','sresnav');
+						respag.className = 'sresnav';
+						respaglnk = document.createElement('a');
+						respaglnk.setAttribute('class','sresnav');
+						respaglnk.className = 'sresnav';
+						respaglnk.innerHTML = p;
+						respaglnk.setAttribute('href','#');
+						respaglnk.setAttribute('onclick','searchrun(' + p + ');');
+						respaglnk.onclick = (function(targpag) { return function() { searchrun(targpag)};})(p)
+						respag.appendChild(respaglnk);
+						document.getElementById('searchresbox').appendChild(respag);
+					}
+				
+				}
+			}
+			if (pagtot>1 && pagno<pagtot) { 
+				nextrespag = document.createElement('p');
+				nextrespag.setAttribute('class','sresnav');
+				nextrespag.setAttribute('style','float:right');
+				nextrespag.className = 'sresnav';
+				
+				nextrespaglnk = document.createElement('a');
+				nextrespaglnk.innerHTML = 'Next';
+				nextrespaglnk.setAttribute('href','#');
+				gotopag = pagno+1;
+				nextrespaglnk.setAttribute('onclick','searchrun(' + gotopag + ');');
+				nextrespaglnk.onclick = (function(targpag) { return function() { searchrun(targpag)};})(gotopag)
+				nextrespaglnk.setAttribute('class','sresnav');
+				nextrespaglnk.className = 'sresnav';
+				nextrespag.appendChild(nextrespaglnk);
+				document.getElementById('searchresbox').appendChild(nextrespag);
+			}
+		}
+		////////////////////////////////////////////////////////////////////////////////
+		
+	}
+	//alert('hello');
+	//document.getElementById('toppage').scrollIntoView(true);
+	
+}//end search function
+
+function dispappendices() { //triggered by appendix quicklink
+	
+	clearappendices();
+	clearsearch();
+	
+	//Go to appendix section
+	changesec('appendixarea');
+	
+	for(p=0;p<appendixttlarr.length;p++) {
+		sresttl = document.createElement('p');
+		sresttl.setAttribute('class','sresttl');
+		sresttl.className = 'sresttl';
+		sresttl.setAttribute('id','smatch' + p);
+		sresttllnk = document.createElement('a');
+		sresttllnk.setAttribute('class','sresttl-link');
+		sresttllnk.className = 'sresttl-link';
+		sresttllnk.setAttribute('href','pdfs/' + appendixpdfarr[p]);
+		sresttllnk.setAttribute('target','_blank');
+		sresttllnk.innerHTML = appendixttlarr[p];
+		document.getElementById('appendixbox').appendChild(sresttl);
+		document.getElementById('smatch' + p).appendChild(sresttllnk);
+	}
+	
+	
+}
+
+function prevpap(papno) {
+
+	//clear paper preview area
+	document.getElementById('paperdescarea').innerHTML = '';
+	
+	changesec('paperarea');
+	//clearsearch();
+	
+	goback = document.createElement('a');
+	goback.setAttribute('class','backlink');
+	goback.className = 'backlink';
+	goback.setAttribute('href','#');
+	goback.setAttribute('onclick','changesec("searcharea");');
+	goback.onclick = function() { changesec("searcharea"); }
+	
+	goback.innerHTML = "&larr; Back to search listing";
+	document.getElementById('paperdescarea').appendChild(goback);
+	
+	papttl = document.createElement('p');
+	papttl.setAttribute('class','papprevttl');
+	papttl.className = 'papprevttl';
+	papttl.innerHTML = 'IP ' + iparr[papno] + ' : ' + titlearr[papno];
+	document.getElementById('paperdescarea').appendChild(papttl);
+	
+	//Discontinuance recontinued
+	//######Display of reapproved date in preview discontinued due to inconsistent usage
+	if (redatearr[papno]!="") {
+		papredate = document.createElement('p');
+		papredate.setAttribute('class','papredate');
+		papredate.className = 'papredate';	
+		papredate.innerHTML = 'Date reapproved: ' + redatearr[papno];
+		document.getElementById('paperdescarea').appendChild(papredate);
+	}
+	
+	/*papauth = document.createElement('p');
+	papauth.setAttribute('class','papprevauths');
+	papauth.className = 'papprevauths';
+	papauth.innerHTML = papauths[papno];
+	document.getElementById('paperdescarea').appendChild(papauth);*/
+	
+	papabsts = document.createElement('p');
+	papabsts.setAttribute('class','papprevabstract');
+	papabsts.className = 'papprevabstract';
+	papabsts.innerHTML = scopearr[papno];
+	document.getElementById('paperdescarea').appendChild(papabsts);
+	
+	br = document.createElement('br');
+	document.getElementById('paperdescarea').appendChild(br);
+	
+	papopendoc = document.createElement('p');
+	papopendoc.setAttribute('class','sresdocbut');
+	papopendoc.className = 'sresdocbut';
+	papopendoc.innerHTML = 'Open Document';
+	papopendoclnk = document.createElement('a');
+	papopendoclnk.setAttribute('href','pdfs/' + pdfarr[papno]+'.pdf');
+	papopendoclnk.setAttribute('target','_blank');
+	papopendoclnk.appendChild(papopendoc);
+	document.getElementById('paperdescarea').appendChild(papopendoclnk);
+}
+
+function testarrays() {
+
+	/////////////////////////////////////////////////////////////
+	//////TESTING TESTING////////////////////////////////////////
+	
+	alert("IP: " + iparr.length);
+	alert("PDF: " + pdfarr.length);
+	alert("BSI: " + bsiarr.length);
+	alert("ISO: " + isoarr.length);
+	alert("CEN: " + cenarr.length);
+	alert("ASTM: " + astmarr.length);
+	alert("Date: " + datearr.length);
+	alert("Reapprove Date: " + redatearr.length);
+	alert("Title: " + titlearr.length);
+	alert("Scope: " + scopearr.length);
+	
+	/////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////
+
+}
+
+
+</script>
+
+
+</head>
+
+<body oncontextmenu="return false">
+
+<script language="javascript">
+
+//testarrays();
+
+</script>
+
+<div id="horizon">
+	<div id="container">
+		<div id="header">
+        	<p id="titlebar"></p>
+            <section id="toplogos"><p id="iptestmethlogo"><a border="0" href="http://publishing.energyinst.org/ip-test-methods" target="_blank"><img border="0" src="images/iptestmeths-logo.png" /></a></p><p id="engyinstlogo"><a border="0" href="http://www.energyinst.org" target="_blank"><img border="0" src="images/energyinst-logo.png" /></a></p></section>
+            <section id="toplnkbar"><a href="#" onclick="changesec('welcomearea');" style="color:#FFFFFF" id="tophomelnk">Home Page</a><a href="#" onclick="changesec('legalarea');" id="tophomelnk" style="margin-left:560px;">Legal/Disclaimers</a><a href="#" onclick="changesec('eiarea');" id="tophomelnk" style="margin-left:27px;">Contact the EI</a></section>
+        </div>
+        <div id="midsec">
+            <a id="toppage" name="toppage"></a>
+            <div id="leftpan">
+                <p id="leftbox-title">Quick Links</p>
+                <div id="quicklnks">
+					<p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/Index 2020 jk.pdf">Test Methods Index</a></p>
+                	<p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/Safety precautions_2014.pdf">Safety precautions</a></p>
+                    <p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/Foreword 2020.pdf">Foreword</a></p>
+                    <p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/List of methods 2020.pdf">List of test methods, panels, and corresponding BS2000, EN ISO and ASTM methods</a></p>
+                    <p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/Proposed methods 2020.pdf">Proposed methods</a></p>
+                    <p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/withdraan 2020.pdf">Notice of withdrawal of methods</a></p>
+                    <p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/obsolete 2020.pdf">Obsolete methods</a></p>
+                    <p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/summary of changes 2020.pdf">Summary of changes in the 2019 edition of standard methods</a></p>
+                    <!--<p class="quicklnk"><a style="color:#003468;" target="_blank" href="pdfs/quicklinks/Future developments.pdf">Future Developments</a></p>        DEPRECATED-->
+                    <p class="quicklnk"><a style="color:#003468;" href="#" onclick="dispappendices();">Appendices</a></p>
+                </div>
+                <div id="leftbox-footer"></div>
+            </div>
+        	<div id="maincont">
+            
+            	<!--WELCOME SECTION STARTS-->
+                <div id="welcomearea">
+            		<p id="conttitlebar">IP STANDARD TEST METHODS 2020</p>
+            		<p class="maintxt">Standard Methods for the Analysis and Testing of Petroleum Products and British Standard 2000 Parts is an annual compilation of test methods based on both traditional and modern instrumentation techniques (including joint methods with BSI, EN ISO and ASTM). These Standard Methods are an essential part of any quality control regime, and necessary for national and international trading of petroleum and petroleum products.
+You can search for test methods on this USB stick by using one of the search tools in the right hand panel of this page. When searching by number, don’t forget to specify the organisational designation (e.g. ‘IP’).</p>
+<p class="maintxt">To view the articles on this USB stick, you will need to have Adobe Reader installed on your computer. Adobe Reader can be downloaded for free by visiting <a style="color:#003468;" href="http://www.adobe.com" target="_blank">http://www.adobe.com</a></p>
+            	</div>
+                <!--WELCOME SECTION ENDS-->
+
+                <!--SEARCH DISPLAY SECTION STARTS-->
+                <div id="searcharea">
+                		<p id="searchres-title">Search results</p>
+						<div id="searchresbox"></div>
+                </div>
+                <!--SEARCH DISPLAY SECTION ENDS-->
+                
+            	<!--APPENDIX SECTION STARTS-->
+                <div id="appendixarea">
+            		<p id="appendtitlebar">Appendices</p>
+            		<div id="appendixbox"></div>
+            	</div>
+                <!--APPENDIX SECTION ENDS-->
+                
+            	<!--PAPER SECTION STARTS-->
+                <div id="paperarea">
+                	<div id="paperdescarea"></div>
+            	</div>
+                <!--PAPER SECTION ENDS-->
+                
+            	<!--EI SECTION STARTS-->
+                <div id="eiarea">
+            		<p id="conttitlebar">EI CONTACT DETAILS</p>
+            		<p class="maintxt">
+If you have any general enquiries about IP Test Methods, or any of our other publications, please contact the Publishing Team at the Energy Institute:</p>
+<p class="maintxt">EI Publishing Team<br />
+Energy Institute<br />
+61 New Cavendish Street<br />
+London<br />
+W1G 7AR<br />
+United Kingdom<br /><br />
+Tel: +44(0)20 7467 7100<br />
+Email: <a style="color:#003468;" href="mailto:pubs@energyinst.org" target="_blank">pubs@energyinst.org</a></p>
+            	</div>
+                <!--EI SECTION ENDS-->
+                
+            	<!--LEGAL SECTION STARTS-->
+                <div id="legalarea">
+            		<p id="conttitlebar">Legal/Disclaimers</p>
+            		<p class="maintxt">
+The information contained in this publication is provided as guidance only, and although every effort has been made by EI to assure the accuracy and reliability of its contents,
+<b>EI MAKES NO GUARANTEE THAT THE INFORMATION HEREIN IS COMPLETE OR ERROR-FREE. ANY PERSON OR ENTITY MAKING ANY USE OF THE INFORMATION HEREIN DOES SO AT HIS/HER/ITS OWN RISK. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE INFORMATION HEREIN IS PROVIDED WITHOUT, AND EI HEREBY EXPRESSLY DISCLAIMS, ANY REPRESENTATION OR WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL EI BE LIABLE TO ANY PERSON, OR ENTITY USING OR RECEIVING THE INFORMATION HEREIN FOR ANY CONSEQUENTIAL, INCIDENTAL, PUNITIVE, INDIRECT OR SPECIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, LOST PROFITS), REGARDLESS OF THE BASIS OF SUCH LIABILITY, AND REGARDLESS OF WHETHER OR NOT EI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR IF SUCH DAMAGES COULD HAVE BEEN FORESEEN.</b></p>
+<p class="maintxt">The contents of this publication are not intended or designed to define or create legal rights or obligations, or set a legal standard of care.</p>
+<p class="maintxt">EI is not undertaking to meet the duties of manufacturers, purchasers, users and/or employers to warn and equip their employees and others concerning safety risks and precautions, nor is EI undertaking any of the duties of manufacturers, purchasers, users and/or employers under local and regional laws and regulations. This information should not be used without first securing competent advice with respect to its suitability for any general or specific application, and all entities have an independent obligation to ascertain that their actions and practices are appropriate and suitable for each particular situation and to consult all applicable federal, state and local laws.</p>
+<p class="maintxt">EI HEREBY EXPRESSLY DISCLAIMS ANY LIABILITY OR RESPONSIBILITY FOR LOSS OR DAMAGE RESULTING FROM THE VIOLATION OF ANY LOCAL OR REGIONAL LAWS OR REGULATIONS WITH WHICH THIS PUBLICATION MAY CONFLICT.</p>
+<p class="maintxt">Nothing contained in any EI publication is to be construed as granting any right, by implication or otherwise, for the manufacture, sale, or use of any method, apparatus, or product covered by letters patent. Neither should anything contained in the publication be construed as insuring anyone against liability for infringement of letters patent.
+No reference made in this publication to any specific product or service constitutes or implies an endorsement, recommendation, or warranty thereof by EI.</p>
+<p class="maintxt"><b>EI, AND ITS AFFILIATES, REPRESENTATIVES, CONSULTANTS, AND CONTRACTORS AND THEIR RESPECTIVE PARENTS, SUBSIDIARIES, AFFILIATES, CONSULTANTS, OFFICERS, DIRECTORS, EMPLOYEES, REPRESENTATIVES, AND MEMBERS SHALL HAVE NO LIABILITY WHATSOEVER FOR, AND SHALL BE HELD HARMLESS AGAINST, ANY LIABILITY FOR ANY INJURIES, LOSSES OR DAMAGES OF ANY KIND, INCLUDING DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, TO PERSONS, INCLUDING PERSONAL INJURY OR DEATH, OR PROPERTY RESULTING IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, FROM ACCEPTANCE, USE OR COMPLIANCE WITH THIS PUBLICATION.</b></p>
+            	</div>
+                <!--LEGAL SECTION ENDS-->     
+                
+                
+            </div>
+        	<div id="sidepan">
+
+				<div id="searchboxkey">
+                	<p id="sform-title">Search by keyword</p>
+                    <div id="searchformkey">
+                    	<div name="sform" id="sform">
+                        	<input class="form-tbox" name="searchtkey" type="text" size="27"  maxlength="64" width="30" onkeydown="if (event.keyCode == 13) {searchrun(1);}" />
+                            <div id="search-footer"><input class="submitbut" type="button" value="Search" onclick="searchrun(1)"/></div>
+                            <input type="hidden" value="1" name="pagnokey" />
+                            <input type="hidden" value="5" name="resperpagkey" />
+                        </div>
+                    </div>
+				</div>
+                
+				<div id="searchbox">
+                	<p id="sform-title">Search by number</p>
+                    <div id="searchform">
+                    	<div name="sformnum" id="sformnum">
+                        	<input class="form-tbox" name="searchtnum" type="text" size="27"  maxlength="64" width="30" onkeydown="if (event.keyCode == 13) {searchrunnum(1)}" />
+           	        <p style="margin-left:12px;">
+                            <input name="searchtype" type="radio" value="IP" checked> IP<br>
+                    		<input name="searchtype" type="radio" value="BSI" unchecked> BSI<br>
+                    		<input name="searchtype" type="radio" value="ISO" unchecked> ISO<br>
+                            <input name="searchtype" type="radio" value="EN" unchecked> EN<br>
+                            <input name="searchtype" type="radio" value="ASTM" unchecked> ASTM<br>
+                            <input type="hidden" value="1" name="pagno" />
+                            <input type="hidden" value="5" name="resperpag" />
+                            <input type="hidden" value="999" name="typeset" />
+                    </p>
+                    <br />
+                            <div id="search-footer"><input class="submitbut" type="button" value="Search" onclick="searchrunnum(1)" /></div>
+                        </div>
+                    </div>
+				</div>
+                
+            </div>        
+        </div>
+        <div id="footer"><p style="text-align:left; float:left;">&copy; 2020 <a class="eitxtlnk" href="http://www.energyinst.org" target="_blank">Energy Institute</a></p><p style="padding:0px 50px 0px 0px; margin: -20px 0px 0px 0px; text-align:right;">&nbsp;</p></div>
+	</div>
+</div>
+
+<div class="horizon" style="background-color:#3C434D;" align="center">
+<div id="discnote" style="padding:18px 0px 24px 0px; font-family:Helvetica,Arial,sans-serif; width:890px;" align="left">
+<p style="font-size:24px; color:#CB770B; margin: 0px 0px 0px 0px;">Using the protected content on this disc</p>
+<p style="font-size:13px; color:#FFFFFF;">The html and pdf files on this card have been copy protected. The files can only be accessed when running from the original USB stick.</p>
+<p style="font-size:13px; color:#FFFFFF;">This software environment works like a standard web browser, allowing you to navigate, search and open files in a similar fashion to using a website. If you experience any problems please email the Energy Institute, e:<a style="color:#FFFFFF" href="mailto:pubs@energyinst.org" title="Email Energy Institute for tech support on this disc" target="_blank">pubs@energyinst.org</a>.</p>
+</div>
+</div>
+
+
+</body>
+</html>
